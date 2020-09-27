@@ -1,38 +1,86 @@
 .App {
+  background-color: #fff5d7;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+nav{
+  background: #cfd8dc;
+  box-shadow: 0 0 20px gray;
+
+}
+nav a {
+  display: inline-block;
+  height: 100%;
+  padding: 10px;
+}
+nav a:hover {
+background-color: whitesmoke;
+}
+a {
+  text-decoration: none;
+  color: #000;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.Item-Container{
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  flex-wrap: wrap;
+  margin:10 px;
+}
+.Item{
+  width: 300px;
+  margin:15px;
+  padding-bottom: 20px;
+  box-shadow: 0 0 10px gray;
+  border-radius: 30px;
+  background-color: rgba(253, 225, 199, 0.801);
+}
+.Item-Fullscreen{
+  box-shadow: 0 0 10px gray;
+  height: 100vh;
+}
+.Item:hover{
+  box-shadow: 0px 0px 30px gray;
+}
+.Home{
+  background-image: url(./images/background-img.jpg);
+  background-size: cover;
+  height:100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.About{
+  overflow:hidden;
 }
 
-.App-link {
-  color: #61dafb;
+.Home-Title{
+  position: relative;
+  top: 200px;
+  font-size: 40px;
+  padding:10px;
+  margin: 0;
+  background-color: rgba(255,255,255,0.5);
 }
+.About-Title{
+  margin: 40px;
+  margin-top: 0;
+ font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+ color: rgb(87, 86, 86);
+}
+.About-Desc{
+  font-family: 'Brush Script MT';
+  margin: 40px;
+  margin-top: 60px;
+  color: rgb(59, 57, 57);
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+}
+.Nav{
+  font-size: 20px;
+}
+.about-img{
+  float: right;
+  margin: 30px;
+  margin-top: 0;
+  box-shadow: 0 0 30px gray;
+  height: auto;
+
 }

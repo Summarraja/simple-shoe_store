@@ -1,4 +1,4 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Simple Shoe Store App using React.js and React-router-dom v6
 
 ## Available Scripts
 
